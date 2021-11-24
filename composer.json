@@ -1,0 +1,21 @@
+{
+    "name": "jtrw/process",
+    "description": "Run Process",
+    "authors": [
+        {
+            "name": "Nil Borodulia",
+            "email": "nborodulia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jtrw\\Process\\": "src",
+            "Jtrw\\Sandbox\\": "public"
+
+        }
+    },
+    "require": {
+        "php" : "~7.4",
+        "ext-json": "*"
+    }
+}
